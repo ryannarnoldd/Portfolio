@@ -1,14 +1,16 @@
-// Todo: Bring in the required import from 'react-router-dom'
+import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
       <Nav />
-      <main className="mx-3">
+      <main className="container my-5">
         <Outlet />
       </main>
+      <Footer />
     </>
   );
 }
