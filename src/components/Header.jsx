@@ -1,8 +1,8 @@
-import React from 'react';
 import Nav from '../Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Header() {
+  // Keeps track of the current page.
   const [currentPage, setCurrentPage] = useState('Home');
   const handlePageChange = (page) => setCurrentPage(page);
   return (

@@ -2,7 +2,7 @@ function Resume() {
   return (
     <section className="text-center">
       <h1>My Resume</h1>
-      {/* download link to pdf */}
+      {/* Download button for resume */}
       <a href="../assets/Ryan_Arnold_Resume.pdf" download className="btn btn-info mt-3">Download My Resume</a>
       <div className="mt-4">
         <h3>Proficiencies</h3>

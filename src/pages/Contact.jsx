@@ -2,10 +2,12 @@
 import { useState } from 'react';
 
 function Contact() {
+  // Sets initial state of name, email, and message.
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
+  // Just so it does not refresh.
   const handleSubmit = (e) => {
     e.preventDefault();
 

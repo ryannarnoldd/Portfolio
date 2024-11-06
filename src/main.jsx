@@ -12,6 +12,7 @@ import ContactPage from './pages/Contact';
 import PortfolioPage from './pages/Portfolio';
 import ResumePage from './pages/Resume';
 
+// There is no error page in this example.
 const router = createBrowserRouter([
   {
     element: <App />,

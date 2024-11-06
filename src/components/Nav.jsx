@@ -1,6 +1,8 @@
 import { Link, useLocation } from 'react-router-dom';
 
 function Nav() {
+  // Gets location using useLocation hook and isActive checks if location is current path.
+  // This is used to decide if active className is applied to each nav tag.
   const location = useLocation();
   const isActive = (path) => location.pathname === path;
 

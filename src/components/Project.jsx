@@ -5,6 +5,8 @@ import RyBotImage from '../assets/Ry-Bot.png';
 import LyricGeneratorImage from '../assets/Lyric-Generator.png';
 import PortfolioImage from '../assets/Portfolio.png';
 
+// This will be used to display the project images.
+// It takes the name of the project as a string and returns the corresponding image.
 const images = {
   "Eternity Bot": EternityBotImage,
   "Faith Tasks": FaithTasksImage,
