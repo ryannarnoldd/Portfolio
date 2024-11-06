@@ -1,11 +1,9 @@
+import RyanImage from "../assets/Ryan.png";
+
 function About() {
   return (
     <section className="text-center">
-
-      {/* IMage using Ryan.png */}
-      <img src="https://via.placeholder.com/200" alt="Ryan Arnold" className="my-2" />
-
-
+      <img src={RyanImage} className="my-2" style={{ width: "30%" }} alt="Ryan Arnold" />
       <h1>About Me</h1>
       <p className="mt-3">
         Hello, my name is Ryan Arnold. 

@@ -2,6 +2,7 @@ function Resume() {
   return (
     <section className="text-center">
       <h1>My Resume</h1>
+      {/* download link to pdf */}
       <a href="../assets/Ryan_Arnold_Resume.pdf" download className="btn btn-info mt-3">Download My Resume</a>
       <div className="mt-4">
         <h3>Proficiencies</h3>
@@ -9,6 +10,10 @@ function Resume() {
           <li>JavaScript</li>
           <li>React</li>
           <li>HTML & CSS</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>SQL</li>
+          <li>NoSQL</li>
         </ul>
         <h3>Experience</h3>
         <p>Attractions - Walt Disney World</p>

@@ -2,12 +2,12 @@ import Project from '../components/Project';
 
 function Portfolio() {
   const projects = [
-    { title: 'Faith Tasks', img: 'FaithTasks', link: 'https://deployed-link.com', repo: 'https://github.com/repo' },
-    { title: 'Galactic Conquest', img: 'GalacticConquest', link: 'https://deployed-link.com', repo: 'https://github.com/repo2' },
-    { title: 'RyBot Discord Bot', img: 'RyBot', link: 'https://deployed-link.com', repo: 'https://github.com/repo3' },
-    { title: 'EternityBot Discord Bot', img: 'EternityBot', link: 'https://deployed-link.com', repo: 'https://github.com/repo2' },
-    { title: 'Lyric Generator', img: 'LyricGenerator', link: 'https://deployed-link.com', repo: 'https://github/com/repo4' },
-    { title: 'Portfolio', img: 'Portfolio', link: 'https://deployed-link.com', repo: 'https://github/com/re"po5' }
+    { title: 'Faith Tasks', img: 'FaithTasks', link: 'https://faithtasks.netlify.app/', repo: 'https://github.com/ryannarnoldd/FaithTasks' },
+    { title: 'Galactic Conquest', img: 'GalacticConquest', link: 'https://www.youtube.com/watch?v=gXRVlogzmfA', repo: 'https://github.com/ryannarnoldd/GalacticConquestProject' },
+    { title: 'RyBot Discord Bot', img: 'RyBot', link: 'https://github.com/ryannarnoldd/ryBot', repo: 'https://github.com/ryannarnoldd/ryBot' },
+    { title: 'EternityBot Discord Bot', img: 'EternityBot', link: 'https://github.com/ryannarnoldd/EternityBot', repo: 'https://github.com/ryannarnoldd/EternityBot' },
+    { title: 'Lyric Generator', img: 'LyricGenerator', link: 'http://nlp-lyric-generator.us-east-1.elasticbeanstalk.com/', repo: 'https://github.com/ryannarnoldd/NLP_Lyric_Generator' },
+    { title: 'Portfolio', img: 'Portfolio', link: 'https://github.com/ryannarnoldd/Portfolio', repo: 'https://github.com/ryannarnoldd/Portfolio' }
   ];
 
   return (

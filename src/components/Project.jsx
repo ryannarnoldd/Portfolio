@@ -1,13 +1,9 @@
-import React from 'react';
-
 import EternityBotImage from '../assets/Eternity-Bot.png';
 import FaithTasksImage from '../assets/Faith-Tasks.png';
 import GalacticConquestImage from '../assets/Galactic-Conquest.png';
 import RyBotImage from '../assets/Ry-Bot.png';
 import LyricGeneratorImage from '../assets/Lyric-Generator.png';
 import PortfolioImage from '../assets/Portfolio.png';
-
-// I need to return each of the above image with a passed in name of the project, the image, the deployed link, and the repository link.
 
 const images = {
   "Eternity Bot": EternityBotImage,
@@ -30,10 +26,6 @@ function Project({ title, deployedLink, repoLink }) {
         </div>
       </div>
     </div>
-
-    // I need to add a photo from the assets folder.
-
-
 
   );
 }
